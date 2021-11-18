@@ -19,8 +19,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
        
     fmt.Fprintf(w, "<h1>Hello from:  "+title+" </h1>")          
 
-		fmt.Fprintf(w, "<img src='assets/jxlogo.png' alt='jxlogo'
-		style='width:500;height:180;'>")
+		fmt.Fprintf(w, "<img src='assets/jxlogo.png' alt='jxlogo' style='width:500;height:180;'>")
 }
 
 func main() {
